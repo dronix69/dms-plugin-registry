@@ -8,6 +8,7 @@
   "description": "Show local OpenCode spending (cost and tokens) for today, this week, and this month, plus OpenCode Go subscription limits.",
   "dependencies": ["sqlite3", "jq", "curl"],
   "compositors": ["niri"],
-  "distro": ">=1.5.0",
-  "screenshot": https://github.com/dronix69/opencodeUsage/blob/main/screenshot.png?raw=true
+  "distro": ["any"],
+  "screenshot": https://github.com/dronix69/opencodeUsage/blob/main/screenshot.png?raw=true,
+  "requires_dms": ">=1.5.0"
 }

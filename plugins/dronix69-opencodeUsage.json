@@ -9,5 +9,5 @@
   "dependencies": ["sqlite3", "jq", "curl"],
   "compositors": ["niri"],
   "distro": ">=1.5.0",
-  "screenshot": https://github.com/dronix69/opencodeUsage/blob/main/screenshot.png
+  "screenshot": https://github.com/dronix69/opencodeUsage/blob/main/screenshot.png?raw=true
 }

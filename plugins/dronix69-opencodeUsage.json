@@ -4,7 +4,7 @@
   "capabilities": ["dankbar-widget", "daemon"],
   "category": "monitoring",
   "repo": https://github.com/dronix69/opencodeUsage
-  "author": "Daniel Ferrada",
+  "author": "dronix69",
   "description": "Show local OpenCode spending (cost and tokens) for today, this week, and this month, plus OpenCode Go subscription limits.",
   "dependencies": ["sqlite3", "jq", "curl"],
   "compositors": ["niri"],

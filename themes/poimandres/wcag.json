@@ -2,7 +2,7 @@
   "level": "fail",
   "dark": {
     "level": "AAA",
-    "minRatio": 10.62,
+    "minRatio": 10.27,
     "worstPair": [
       "primaryText",
       "primary"
@@ -17,7 +17,7 @@
     },
     "accent": {
       "level": "AAA",
-      "minRatio": 10.62,
+      "minRatio": 10.27,
       "worstPair": [
         "primaryText",
         "primary"
@@ -25,25 +25,31 @@
     },
     "nonText": {
       "level": "AA",
-      "minRatio": 7.05,
+      "minRatio": 7.12,
       "worstPair": [
         "error",
         "surfaceContainer"
       ]
     },
     "variants": {
-      "colorful": "AAA",
-      "normal": "AAA"
+      "colorful-default": "AAA",
+      "colorful-green": "AAA",
+      "colorful-red": "AAA",
+      "colorful-yellow": "AAA",
+      "m3e-default": "AAA",
+      "m3e-green": "AAA",
+      "m3e-red": "AA",
+      "m3e-yellow": "AAA"
     },
     "breakdown": [
       {
-        "name": "Colorful",
+        "name": "M3E",
         "mode": "dark",
-        "level": "AAA",
+        "level": "AA",
         "bodyLevel": "AAA"
       },
       {
-        "name": "Normal",
+        "name": "Colorful",
         "mode": "dark",
         "level": "AAA",
         "bodyLevel": "AAA"
@@ -52,7 +58,7 @@
   },
   "light": {
     "level": "fail",
-    "minRatio": 2.5,
+    "minRatio": 3.0,
     "worstPair": [
       "primary",
       "surfaceContainer"
@@ -67,7 +73,7 @@
     },
     "accent": {
       "level": "fail",
-      "minRatio": 2.5,
+      "minRatio": 3.0,
       "worstPair": [
         "primary",
         "surfaceContainer"
@@ -82,18 +88,24 @@
       ]
     },
     "variants": {
-      "colorful": "fail",
-      "normal": "fail"
+      "colorful-light-default": "fail",
+      "colorful-light-green": "fail",
+      "colorful-light-red": "fail",
+      "colorful-light-yellow": "fail",
+      "m3e-light-default": "fail",
+      "m3e-light-green": "fail",
+      "m3e-light-red": "fail",
+      "m3e-light-yellow": "fail"
     },
     "breakdown": [
       {
-        "name": "Colorful",
+        "name": "M3E Light",
         "mode": "light",
         "level": "fail",
         "bodyLevel": "AAA"
       },
       {
-        "name": "Normal",
+        "name": "Colorful Light",
         "mode": "light",
         "level": "fail",
         "bodyLevel": "AAA"
